@@ -11,6 +11,7 @@ body {
     background: #333333;
     background: url("https://images.unsplash.com/photo-1586250648641-bb399310710d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1348&q=80");
     background-size: cover;
+    margin: auto;
 }
 
 div {
