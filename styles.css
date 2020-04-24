@@ -12,7 +12,7 @@ body {
 }
 
 .dreadnight {
-    width: 1640px;
+    /* width: 1670px; */
     background: #333333;
     padding: 10px;
     border-left: 10px solid white;
@@ -23,7 +23,8 @@ body {
     border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    margin: 200px auto 50px auto;
+    margin: 200px 100px 50px 100px;
+    padding: 20;
 }
 
 .dreadnightpara {
@@ -33,11 +34,8 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: white;
     font-weight: 800;
-    /* border-left: 10px solid #119ed6;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; */
-    margin: 10px auto auto auto;
-    padding: 10px;
+    margin: 10px;
+
 }
 
 .n {
