@@ -15,15 +15,28 @@ body {
     margin: auto;
 }
 
-div {
-    margin: 100px auto auto auto;
+.homebutton {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
+.homebuttonbar {
+    color: #119ed6;
+}
+
+.buttonfont {
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.imagediv {
+    margin: 80px auto auto auto;
 }
 
 img {
     width: 70%;
     margin: auto 15%;
 }
-
 
 .comingsoon {
     color: white;
