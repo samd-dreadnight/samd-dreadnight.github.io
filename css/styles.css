@@ -7,13 +7,18 @@ font-family: 'Permanent Marker', cursive;
 font-family: 'Orbitron', sans-serif; */
 
 
+html {
+    height: 100%;
+}
+
 body {
-    background: #333333;
     /* background: url("https://images.unsplash.com/photo-1586250648641-bb399310710d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1348&q=80"); */
     background: url("https://images.wallpaperscraft.com/image/space_planet_surface_shadow_46631_1920x1080.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    margin: auto;
+}
+
+img {
+    width: 100%;
 }
 
 .homebutton {
@@ -30,18 +35,14 @@ body {
 }
 
 
-.imagediv {
-    margin: 80px auto auto auto;
-}
-
-img {
-    width: 70%;
-    margin: auto 15%;
-}
-
 .comingsoon {
     color: white;
+    text-align: center;
     font-size: 20px;
     font-family: 'Lexend Giga', sans-serif;
-    margin: 20px auto auto 300px;
+    padding-top: 10px;
+}
+
+#logopadding {
+    padding-top: 10%;
 }
