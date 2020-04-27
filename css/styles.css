@@ -15,10 +15,16 @@ body {
     /* background: url("https://images.unsplash.com/photo-1586250648641-bb399310710d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1348&q=80"); */
     background: url("https://images.wallpaperscraft.com/image/space_planet_surface_shadow_46631_1920x1080.jpg");
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 img {
-    width: 100%;
+    width: 60%;
+}
+
+nav {
+    background: rgba(30.7,30.7,30.7,0.5);
+    border-bottom: solid rgba(65.3,21.8,33.9,0.7);
 }
 
 .homebutton {
@@ -44,5 +50,7 @@ img {
 }
 
 #logopadding {
-    padding-top: 10%;
+    padding-top: 15%;
+    text-align: center;
+    
 }
