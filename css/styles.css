@@ -66,8 +66,11 @@ nav {
 
 .cardStyle {
     background: rgba(30.7,30.7,30.7,0.7);
-    border: 1px solid rgb(102, 33, 52);
+    border-top: 1px solid rgb(102, 33, 52);
+    border-bottom: 1px solid rgb(102, 33, 52);
     color: white;
+    margin-top: 100px;
+    margin-bottom: 85px;
 }
 
 .cardHeadStyle {
@@ -81,6 +84,7 @@ nav {
 .aboutImage {
     background-image: url(/img/About_Tile.jpeg);
     background-position: 50% 50%;
+    
 }
 
 .contactImage {
@@ -91,8 +95,10 @@ nav {
 .cardImage {
     height: 250px;
     border: 3px solid rgb(102, 33, 52);
-    border-radius: 5%;
-    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+
 }
 
 .cardButton {
@@ -109,6 +115,15 @@ nav {
 }
 
 /* Form Styling */
+
+form {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+form input {
+    max-width: 400px;
+}
 
 .form-control {
     color: white;
