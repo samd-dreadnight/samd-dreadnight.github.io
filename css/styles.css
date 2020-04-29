@@ -4,7 +4,8 @@ font-family: 'Bebas Neue', cursive;
 font-family: 'Teko', sans-serif;
 font-family: 'Bahianita', cursive;
 font-family: 'Permanent Marker', cursive;
-font-family: 'Orbitron', sans-serif; */
+font-family: 'Orbitron', sans-serif;
+font-family: 'Source Code Pro', monospace; */
 
 
 html {
@@ -12,14 +13,14 @@ html {
 }
 
 body {
-    /* background: url("https://images.unsplash.com/photo-1586250648641-bb399310710d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1348&q=80"); */
+    height: 100%;
     background: url("https://images.wallpaperscraft.com/image/space_planet_surface_shadow_46631_1920x1080.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
 
 img {
-    width: 60%;
+    width: 100%;
 }
 
 nav {
@@ -52,5 +53,79 @@ nav {
 #logopadding {
     padding-top: 15%;
     text-align: center;
-    
+
 }
+
+/* Card Styling */
+.card p {
+    line-height: 2;
+    font-size: 0.9rem;
+    font-family: 'Lexend Giga', sans-serif;
+    margin-bottom: 20px;
+}
+
+.cardStyle {
+    background: rgba(30.7,30.7,30.7,0.7);
+    border: 1px solid rgb(102, 33, 52);
+    color: white;
+}
+
+.cardHeadStyle {
+    background: rgba(30.7,30.7,30.7,0.7);
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.aboutImage {
+    background-image: url(/img/About_Tile.jpeg);
+    background-position: 50% 50%;
+}
+
+.contactImage {
+    background-image: url(/img/contact_title.jpg);
+    background-position: bottom;
+}
+
+.cardImage {
+    height: 250px;
+    border: 3px solid rgb(102, 33, 52);
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.cardButton {
+    background: rgba(30.7,30.7,30.7,1.0);
+    color: white;
+    border: 1px solid rgb(102, 33, 52);
+    letter-spacing: 2px;
+}
+
+.cardButton:hover {
+    color: silver;
+    border: 1px solid rgb(163, 62, 91);
+    transition: all 0.25s;
+}
+
+/* Form Styling */
+
+.form-control {
+    color: white;
+    background: rgba(30.7,30.7,30.7,1.0);
+    font-family: 'Source Code Pro', monospace;
+    max-height: 220px;
+}
+
+.form-control:focus {
+    color: white;
+    background: rgba(30.7,30.7,30.7,1.0);
+    border: 2px solid rgb(163, 62, 91);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(163, 62, 91);
+}
+
+
+
+
+
+
