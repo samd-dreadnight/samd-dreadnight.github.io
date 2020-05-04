@@ -41,6 +41,12 @@ nav {
     font-family: 'Orbitron', sans-serif;
 }
 
+.btnActive {
+    border-bottom: solid rgba(80.3,30.8,33.9,0.7);
+    border-right: solid rgba(80.3,30.8,33.9,0.7);
+    border-radius: 20px;
+}
+
 
 .comingsoon {
     color: white;
@@ -57,6 +63,7 @@ nav {
 }
 
 /* Card Styling */
+
 .card p {
     line-height: 2;
     font-size: 0.9rem;
@@ -116,8 +123,8 @@ nav {
     transition: all 0.25s;
 }
 
-/* Form Styling */
 
+/* Form Styling */
 
 form input {
     max-width: 400px;
@@ -135,6 +142,105 @@ form input {
     background: rgba(30.7,30.7,30.7,1.0);
     border: 2px solid rgb(163, 62, 91);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(163, 62, 91);
+}
+
+
+/* color Game */
+
+#gameBody {
+    background: url("https://images.wallpaperscraft.com/image/space_planet_surface_shadow_46631_1920x1080.jpg");
+    color: white;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    line-height: 1.5;
+    background: rgba(30.7,30.7,30.7,1.0);
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.gameButton {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: rgb(122, 122, 122);
+    margin: auto;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+.gameButton:hover {
+    color: white;
+    background: rgb(63, 63, 63);
+    border-radius: 10px;
+}
+
+
+.square {
+    width: 30%;
+    background: purple;
+    float: left;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    border-radius: 15%;
+    transition: background 1.0s;
+    -webkit-transition: background 1.0s;
+    -moz-transition: background 1.0s;
+}
+
+#gameContainer {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#stripe {
+    background: rgba(30.7,30.7,30.7,1.0);
+    height: 50px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    background: rgb(63, 63, 63);
+    border-radius: 10px;
+    color: white;
+}
+
+
+#message {
+    display: inline-block;
+    width: 10%;
+    color: steelblue;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+}
+
+#colorDisplayContainer {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
+#instructions {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    margin: 0;
 }
 
 
