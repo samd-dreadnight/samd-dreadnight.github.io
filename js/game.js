@@ -75,7 +75,7 @@ for (var i = 0; i < squares.length; i++) {
         }
         else {
             this.style.backgroundColor = "rgba(30.7,30.7,30.7,0.0)";
-            messageDisplay.textContent = "Nope.. Try Again!";
+            messageDisplay.textContent = "Try Again!";
         }
     });
 }
