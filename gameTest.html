@@ -29,21 +29,21 @@
                     <a class="nav-item nav-link buttonfont" href="about.html">About</a>
                     <a class="nav-item nav-link buttonfont" href="contact.html">Contact</a>
                     <a class="nav-item nav-link buttonfont" href="colorGame.html">Color Game</a>
-                    <a class="nav-item nav-link buttonfont" href="gameTest.html">Begin Adventure</a>
+                    <a class="nav-item nav-link buttonfont btnActive" href="gameTest.html">Begin Adventure</a>
                     <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
                 </div>
             </div>
         </div>
     </nav>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div id="logopadding">
-                    <img src="img/Dreadnight Logo_WhiteBorder_TransparentBG.png" alt="Dreadnight">
-                    <!-- <p class="comingsoon">Coming Soon...</p> -->
-                </div>
+    <div class="container gameContainer">
+        <div class="gameBackgroundPic">
+            <img id="controlPanel" src="/img/sreenControl.png" alt="">
+            <div class="gameTextBox">
+                <h2><span class="homebuttonbar">-</span> The Control Room <span class="homebuttonbar">-</span></h2>
+                <p id="gameText">The piercing screech of the alarm is shattering my ears. I need to locate the control
+                    panel to turn off
+                    the alarm.</p>
             </div>
         </div>
     </div>
@@ -58,6 +58,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="adventure.js"></script>
 
 </body>
 

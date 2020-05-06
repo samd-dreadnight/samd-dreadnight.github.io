@@ -17,6 +17,7 @@ body {
     background: url("https://images.wallpaperscraft.com/image/space_planet_surface_shadow_46631_1920x1080.jpg");
     background-size: cover;
     background-position: 50% 50%;
+    font-family: 'Orbitron', sans-serif;
 }
 
 img {
@@ -252,6 +253,49 @@ h1 {
 }
 
 
+
+/* Text Adventure */
+
+.gameContainer {
+    border: 5px solid rgba(65.3,21.8,33.9,0.7);
+    background: rgba(30.7,30.7,30.7,0.7);
+    height: 800px;
+    margin: 50px auto;
+    padding: 0;
+}
+
+.gameBackgroundPic {
+    background: url("/img/controlRoom.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.gameTextBox {
+    background: rgba(30.7,30.7,30.7,1.0);
+    border: 5px solid rgba(96.5, 25.2, 49.0, 0.7);
+    width: 70%;
+    margin-top: 32%;
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.gameTextBox p {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+#controlPanel {
+    height: 69px;
+    width: 92px;
+    margin-top: 160px;
+    margin-left: 595px;
+}
 
 
 
